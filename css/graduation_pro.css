@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30;
+    padding: 50;
+    /*text-align: right
+    direction: rtl; /* لضمان البدء من اليمين */
+    background-color:#e3d4c3;
+}
+
+/* الهيدر العلوي - الخلفية العنابية */
+header {
+    background-color: #53703b; /* اللون العنابي كما في الصورة */
+    color:#e3d4c3;
+    padding: 12px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header figure {
+    display: flex;
+    align-items: center;
+    margin: 0;
+ padding: 30px 50px;
+}
+
+
+header h1 {
+    font-size: 0.5rem;
+    margin-left: 15px;
+}
+
+/* قائمة التنقل - شريط الروابط */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* مسافة بين الروابط */
+    padding: 10;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e3d4c3;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* تغيير اللون عند تمرير الماوس */
+}
+.main{
+     background-color: #e3d4c3;
+    direction: rtl;
+    text-align: right; 
+     padding: 20px 20px;
+    line-height: 1.8;
+}
+h2{
+    direction: rtl;
+    text-align: right;
+    color: #53703b;
+}
+u{
+    color: #53703b;
+}
+h3{
+    direction: rtl;
+    text-align: right;
+    color: #53703b;
+}
+p{
+    direction: rtl;
+    text-align: right;
+    color: black;
+}
+main{
+    padding: 20px 20px;
+    background-color: #e3d4c3;
+    line-height: 1.8;
+    direction: rtl;
+    text-align: right;
+}
+footer{
+    direction: rtl;
+    text-align: right;
+    color: black;
+    background-color: #53703b;
+    padding: 5px 10px 5px 10px;
+}

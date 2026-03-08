@@ -1,0 +1,76 @@
+/*header{
+    color: ##53703b;
+    font-size: large;
+    background-color: #631733;
+}
+.main{
+    color: white;
+}
+.supject{
+    color: white
+}
+.abut{
+    color: white;
+}
+.graduation_projects{
+    color: white;
+}
+.contact{
+    color: white;
+}*/
+header {
+    background-color: #53703b; /* اللون العنابي كما في الصورة */
+  color: white;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header figure {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+
+/* قائمة التنقل - شريط الروابط */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* مسافة بين الروابط */
+    padding: 10;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e3d4c3;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* تغيير اللون عند تمرير الماوس */
+}
+main{
+    background-color: #e3d4c3;
+    direction: rtl;
+    text-align: right;
+    padding: 20px;
+
+}
+h2{
+    color: #53703b;
+     text-align: right;
+}
+footer{
+    direction: rtl;
+    text-align: right;
+    color: black;
+    background-color: #53703b;
+     padding: 5px 10px 5px 10px;
+}
