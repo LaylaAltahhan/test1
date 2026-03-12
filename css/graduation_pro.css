@@ -9,8 +9,8 @@ body {
 
 /* الهيدر العلوي - الخلفية العنابية */
 header {
-    background-color: #53703b; /* اللون العنابي كما في الصورة */
-    color:#e3d4c3;
+    background-color: #641732; /* اللون العنابي كما في الصورة */
+    color:#9e9da2;
     padding: 12px 35px;
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #e3d4c3;
+    color: #9e9da2;
     font-weight: bold;
     font-size: 0.9rem;
 }
@@ -62,15 +62,15 @@ nav ul li a:hover {
 h2{
     direction: rtl;
     text-align: right;
-    color: #53703b;
+    color: #641732;
 }
 u{
-    color: #53703b;
+    color: #641732;
 }
 h3{
     direction: rtl;
     text-align: right;
-    color: #53703b;
+    color: #641732;
 }
 p{
     direction: rtl;
@@ -87,7 +87,23 @@ main{
 footer{
     direction: rtl;
     text-align: right;
-    color: black;
-    background-color: #53703b;
+    color: #9e9da2;
+    background-color: #641732;
     padding: 5px 10px 5px 10px;
+}
+main{
+    direction: rtl;
+    text-align: right;
+}
+main a{
+    color: black;
+}
+main a:hover{
+    color: #ffcc00;
+}
+footer p{
+    color: #9e9da2;
+}
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

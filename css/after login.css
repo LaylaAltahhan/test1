@@ -19,8 +19,8 @@
     color: white;
 }*/
 header {
-    background-color: #53703b; /* اللون العنابي كما في الصورة */
-  color: white;
+    background-color: #641732; /* اللون العنابي كما في الصورة */
+  color: #9e9da2;
     padding: 30px 50px;
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #e3d4c3;
+    color: #9e9da2;
     font-weight: bold;
     font-size: 0.9rem;
 }
@@ -64,13 +64,22 @@ main{
 
 }
 h2{
-    color: #53703b;
+    color: #641732;
      text-align: right;
 }
 footer{
     direction: rtl;
     text-align: right;
-    color: black;
-    background-color: #53703b;
+    color: #9e9da2;
+    background-color: #641732;
      padding: 5px 10px 5px 10px;
+     background-color: ;
 }
+footer p{
+    color: #9e9da2;
+}
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#641732 توتي
+#9e9da2 رمادي

@@ -1,30 +1,17 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 30;
-    padding: 50;
-    /*text-align: right
-    direction: rtl; /* لضمان البدء من اليمين */
-    background-color:#e3d4c3;
-}
-
-/* الهيدر العلوي - الخلفية العنابية */
 header {
     background-color: #641732; /* اللون العنابي كما في الصورة */
-    color:#e3d4c3;
-    padding: 20px 30px;
+  color: #9e9da2;
+    padding: 30px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 header figure {
     display: flex;
     align-items: center;
     margin: 0;
- padding: 30px 50px;
 }
-
 
 header h1 {
     font-size: 1.5rem;
@@ -37,9 +24,6 @@ nav ul {
     display: flex;
     gap: 20px; /* مسافة بين الروابط */
     padding: 10;
-    list-style: none;
-    display: flex;
-    gap: 20px;
 }
 
 nav ul li a {
@@ -52,56 +36,27 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffcc00; /* تغيير اللون عند تمرير الماوس */
 }
-.main{
-     background-color: #e3d4c3;
+main{
+    background-color: #e3d4c3;
     direction: rtl;
-    text-align: right; 
-     padding: 20px 20px;
-    line-height: 1.8;
+    text-align: right;
+    padding: 20px;
 }
 h2{
-    direction: rtl;
-    text-align: right;
     color: #641732;
-}
-u{
-    color: #641732;
-}
-h3{
-    direction: rtl;
-    text-align: right;
-    color: #641732;
-}
-p{
-    direction: rtl;
-    text-align: right;
-    color: black;
-}
-main{
-    padding: 20px 20px;
-    background-color: #e3d4c3;
-    line-height: 1.8;
-    direction: rtl;
-    text-align: right;
+     text-align: right;
 }
 footer{
     direction: rtl;
     text-align: right;
     color: #9e9da2;
     background-color: #641732;
-    padding: 5px 10px 5px 10px;
+     padding: 5px 10px 5px 10px;
+     background-color: ;
 }
 footer p{
     color: #9e9da2;
-
-}
-div nav a{
-    color:black
-}
-div nav a :hover{
-    color:#ffcc00;
 }
 body{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#a5669a

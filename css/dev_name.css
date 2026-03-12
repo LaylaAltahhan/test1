@@ -9,8 +9,8 @@ body {
 
 /* الهيدر العلوي - الخلفية العنابية */
 header {
-    background-color: #53703b; /* اللون العنابي كما في الصورة */
-  / color: white;
+    background-color: #641732; /* اللون العنابي كما في الصورة */
+  color: #9e9da2;;
     padding: 30px 50px;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #e3d4c3;
+    color: #9e9da2;
     font-weight: bold;
     font-size: 0.9rem;
 }
@@ -52,7 +52,7 @@ main {
     background-color: #e3d4c3;
     line-height: 1.8;
     direction:rtl;
-    text-align: center;
+    text-align: right;
 }
 p{
     display: flex;
@@ -61,7 +61,13 @@ p{
 footer{
     direction: rtl;
     text-align: right;
-    color: black;
-    background-color: #53703b;
+    color: #9e9da2;
+    background-color: #641732;
     padding: 5px 10px 5px 10px;
+}
+footer p{
+    color: #9e9da2;
+}
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

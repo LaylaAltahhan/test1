@@ -45,8 +45,8 @@ body {
 
 /* الهيدر العلوي - الخلفية العنابية */
 header {
-    background-color: #53703b; /* اللون العنابي كما في الصورة */
-  / color: white;
+    background-color: #641732; /* اللون العنابي كما في الصورة */
+    color : #9e9da2;
     padding: 30px 50px;
     display: flex;
     justify-content: space-between;
@@ -75,7 +75,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #e3d4c3;
+    color: #9e9da2;
     font-weight: bold;
     font-size: 0.9rem;
 }
@@ -113,8 +113,9 @@ main {
     text-align: right;
 }
 
+
 h3 {
-    color: #53703b;
+    color: #641732;
     /*border-right: 5px solid #631733; /* خط جانبي للعناوين */
     padding-right: 10px;
     align-items: center;
@@ -122,7 +123,7 @@ h3 {
 }
 h4 {
     
-    color: #53703b;
+    color: #641732;
      text-align: right;
 }
 
@@ -145,7 +146,7 @@ input[type="text"], input[type="password"] {
 }
 
 input[type="submit"] {
-    background-color: #53703b;
+    background-color: #641732;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -154,7 +155,7 @@ input[type="submit"] {
 }
  .img{
   width: 150px; /* لتأخذ معظم العرض كما في الصورة */
-   / max-width: 1000px;
+   max-width: 1000px;
     border-radius: 50px; /* حواف منحنية */
   /*  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* ظل خفيف */
   align-items: center;
@@ -162,7 +163,13 @@ input[type="submit"] {
 footer{
     direction: rtl;
     text-align: right;
-    color: black;
-    background-color: #53703b;
+    color: #9e9da2;
+    background-color: #641732;
     padding: 5px 10px 5px 10px;
+}
+footer p{
+    color: #9e9da2;
+}
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
